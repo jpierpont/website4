@@ -70,5 +70,5 @@ public class IndexServlet extends HttpServlet {
 		//Forward to view to render the result HTML document
 		req.getRequestDispatcher("/_view/addNumbers.jsp").forward(req, resp);
 		
-	}//End of doPost
+	}//End of doPost//
 }
